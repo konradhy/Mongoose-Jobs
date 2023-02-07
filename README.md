@@ -1,10 +1,10 @@
-#Mongoose Jobs
+# Mongoose Jobs
 Mongoose Jobs is a job search tracking website built on the MERN stack (MongoDB, Express.js, React, and Node.js). It is designed to help users who are seeking employment keep track of their job search progress in one convenient location.
 
-##Demo
+## Demo
 https://mongoosejobs.onrender.com
 
-##Features
+## Features
 User authentication using JSON Web Tokens (JWT)
 
 Secure password hashing using bcryptjs
@@ -17,7 +17,7 @@ Error handling middleware
 
 Reusable React Components
 
-##Getting Started
+## Getting Started
 Clone the repository to your local machine
 
 Install dependencies or build using scripts
@@ -30,7 +30,7 @@ MONGODB_URL: The URL of your MongoDB instance
 
 The application should be available at http://localhost:3000
 
-##Acknowledgements
+## Acknowledgements
 Mongoose Jobs is built with the following open-source libraries:
 
 MongoDB
