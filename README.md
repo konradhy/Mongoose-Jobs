@@ -3,6 +3,7 @@ Mongoose Jobs is a job search tracking website built on the MERN stack (MongoDB,
 
 ## Demo
 https://mongoosejobs.onrender.com
+Please allow servers up to one minute to reboot after visiting link
 
 ## Features
 User authentication using JSON Web Tokens (JWT)
