@@ -7,51 +7,23 @@ Please allow servers up to one minute to reboot after visiting link
 
 ## Features
 User authentication using JSON Web Tokens (JWT)
-
 Secure password hashing using bcryptjs
-
 Pagination, and search with MongoDB
-
 Input validation using validator
-
 Error handling middleware
-
 Reusable React Components
+Redux pattern
 
 ## Getting Started
-Clone the repository to your local machine
-
-Install dependencies or build using scripts
-
-Create a .env file in the root directory with the following variables:
-
-JWT_SECRET: A secret string used to sign JSON Web Tokens
-
-MONGODB_URL: The URL of your MongoDB instance
+- Clone the repository to your local machine
+- Configure Database and populate with script
+- Create a .env file in the root directory with the following variables:
+  - JWT_SECRET: A secret string used to sign JSON Web Tokens
+  - MONGODB_URL: The URL of your MongoDB instance
+  - JWT_LIFETIME: 1d
+- Run npm install-dependencies (or npm setup-production if going live)
+- Run npm client and npm start in different terminals
 
 The application should be available at http://localhost:3000
 
-## Acknowledgements
-Mongoose Jobs is built with the following open-source libraries:
 
-MongoDB
-
-Express.js
-
-React
-
-Node.js
-
-bcryptjs
-
-cors
-
-helmet
-
-jsonwebtokens
-
-mongoose
-
-morgan
-
-validator
